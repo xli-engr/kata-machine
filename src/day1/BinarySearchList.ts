@@ -1,5 +1,4 @@
 export default function bs_list(haystack: number[], needle: number): boolean {
-
     let start = 0;
     let end = haystack.length - 1;
 
@@ -17,5 +16,4 @@ export default function bs_list(haystack: number[], needle: number): boolean {
     }
 
     return false;
-
 }
